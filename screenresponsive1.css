@@ -1,0 +1,537 @@
+ @media screen and (min-width: 1475px) and (max-width: 1603px) {
+
+
+* {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+
+/* border inside the div */
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+
+  font-size: 20px;
+  cursor: url(mouse.gif);
+    
+ }
+
+
+a:link {color: #000000; text-decoration: none; }
+a:active {color: #000000; text-decoration: none; }
+a:visited {color: #000000; text-decoration: none; }
+a:hover {color: #ffffff; text-decoration: none; }
+
+
+#phone {
+  display: none;
+  
+}
+
+#secondbody {
+  display:none;
+
+}
+
+
+#icon {
+  width:23px;
+  padding-top:1px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+#wrapper {
+}
+
+#print {
+  
+  padding: 10px;
+  font-style: bold;
+
+}
+
+
+#menu {
+  background: white;
+  border-bottom: 3px solid black; 
+
+  font-size: 14px;
+  color: black;
+  list-style: none;
+
+  top: 0;
+  left: 0;
+  height: 40px;  
+  width: 100%;
+
+  position: fixed; 
+  padding-top: 5px;
+  padding-left: 2em;
+  z-index: 999;
+
+}
+
+#bottommenu {
+  background: white;
+  border-top: 3px solid black; 
+
+  font-size: 14px;
+  color: black;
+  list-style: none;
+
+  bottom: 0;
+  left: 0;
+  height: 40px;  
+  width: 100%;
+
+  position: fixed; 
+  margin: 0;
+  padding-top: 5px;
+  padding-left: 2em;
+  z-index: 999;
+}
+
+
+li {
+  /* background-color: red; */
+  display: inline-block;
+
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 2.5px;
+
+}
+
+.left {
+  /* background-color: grey; */
+  border-right: 3px solid black; 
+
+  width: 50%;
+  height: calc(100vh - 4em);
+
+  margin-top: 40px;
+  margin-bottom: 40px !important;
+ 
+  position: fixed;
+  display: inline-block;
+  float: left; 
+
+
+}
+
+.right {
+  background-color: black;
+  width: 50%;
+  max-height: calc(100vh - 4em);
+
+  letter-spacing: 1px;
+  word-spacing: -2px;
+  font-size: 20px;
+  line-height: 1.5;
+
+  margin-top: 40px;
+  margin-bottom: 40px;  
+  overflow: scroll;
+  word-break: keep-all;
+
+  display: inline-block; /*float in the same line*/
+  float: right;
+
+
+
+}
+
+
+.boxone {
+  /* background-color: pink; */
+  border-right: 3px solid black; 
+
+  width: 50%;
+  height: 50%;
+  display: inline-block;
+  float: left;
+
+}
+
+.boxtwo {
+  /* background-color: green; */
+  width: 50%;
+  height: 50%;
+  font-size: 30pt;
+  display: inline-block; /*float in the same line*/
+  float: left;
+
+}
+.boxthree {
+  position: relative;
+  background-color: white;
+  border-top: 3px solid black; 
+
+  width: 100%;
+  height: 50%;
+
+  display: inline-block; /*float in the same line*/
+  float: left;
+
+}
+.boxthree.empty {
+  background-image: url(img/coverbottom.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: none;
+
+}
+
+.boxones {
+  /* background-color: yellow; */
+  width: 50%;
+  height: 50%;
+  display: inline-block;
+  float: left;
+
+}
+
+.boxtwos {
+  /* background-color: orange; */
+  border-left: 3px solid black; 
+
+  width: 50%;
+  height: 50%;
+  display: inline-block; /*float in the same line*/
+  float: left;
+
+}
+.boxthrees {
+/*  background-color: blue; */
+  border-top: 3px solid black; 
+
+  width: 100%;
+  height: 50%;
+  padding: 10px 0PX 25PX 20PX;
+
+  display: inline-block; /*float in the same line*/
+  float: left;
+
+}
+
+#website:link {color: #000000; text-decoration: none; }
+#website:active {color: #000000; text-decoration: none; }
+#website:visited {color: #000000; text-decoration: none; }
+#website:hover {color: #000000; text-decoration: none; }
+
+.boxtop {
+  /* background-color: pink; */
+  background-color: white;
+  border-bottom: 3px solid black; 
+  width: 100%;
+  height: 50%;
+
+  font-size: 13pt;
+  letter-spacing: 0px;
+  word-spacing: -2px;
+  line-height: 15pt;
+
+  padding: 20px 0PX 25PX 20PX;
+  display: inline-block; /*float in the same line*/
+  float: left;
+
+}
+
+.boxbottom {
+  background-image: url(img/top.png);
+  background-size: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+
+
+#boxthrees1 {
+  font-size: 26pt;
+  letter-spacing: 0px;
+  word-spacing: -2px;
+  line-height: 50pt;
+
+}
+
+/* main title */
+
+
+
+#maintitle img {
+  width: 100%;
+
+}
+
+
+/* research question */
+
+
+#question {
+  background-color: white;
+  width: 100%;
+  font-size: 40pt;
+
+  padding-top:200px;
+  padding-bottom: 200px;
+  padding-left: 50px;
+
+  float: none;
+}
+
+.quote {
+  color: white;
+  font-size: 30pt;
+  line-height: 1.5;
+  padding: 0% 5% 0% 5%; 
+
+}
+
+/* abstract */
+
+#abstract {
+  color: white;
+  font-size: 20pt;
+  line-height: 1.5;
+  padding: 0% 10% 0% 10%; 
+  margin-top: 800px;
+
+}
+
+
+/* introduction */
+
+#introduction {
+  color: white;
+  font-size: 20pt;
+  line-height: 1.5;
+  margin-top: 800px;
+  padding: 0% 10% 0% 10%; 
+
+}
+
+/* subchapter in Introduction */
+.sub {
+  color: white;
+  font-size: 16pt;
+
+}
+
+/* chapter1-1 */
+
+#chapteroneone {
+  color: white;
+  font-size: 20pt;
+  line-height: 1.5;
+  padding: 0% 10% 0% 10%; 
+  margin-top: 800px;
+
+}
+
+/* chapter1-2 */
+
+#chapteronetwo {
+  color: white;
+  font-size: 20pt;
+  line-height: 1.5;
+  padding: 0% 10% 0% 10%; 
+  margin-top: 800px;
+
+}
+
+/* chapter1-3 */
+
+#chapteronethree {
+  color: white;
+  font-size: 20pt;
+  line-height: 1.5;
+  padding: 0% 10% 0% 10%; 
+  margin-top: 800px;
+
+}
+
+.newperspectivefirst {
+  color: white;
+  font-size: 55pt;
+  margin: auto;
+
+}
+
+
+.newperspective {
+  color: white;
+  font-size: 35pt;
+  line-height: 1.5;
+
+}
+
+/* chapter2-1 */
+
+#chaptertwoone {
+  color: white;
+  font-size: 20pt;
+  line-height: 1.5;
+  padding: 0% 10% 0% 10%; 
+  margin-top: 800px;
+
+}
+
+
+/* chapter2-2 */
+
+#chaptertwotwo {
+  color: white;
+  font-size: 20pt;
+  line-height: 1.5;
+  padding: 0% 10% 0% 10%; 
+  margin-top: 800px;
+
+}
+
+
+/* chapter2-3 */
+
+#chaptertwothree {
+  color: white;
+  font-size: 20pt;
+  line-height: 1.5;
+  padding: 0% 10% 0% 10%; 
+  margin-top: 800px;
+
+}
+
+
+/* chapter2-4 */
+
+#chaptertwofour {
+  color: white;
+  font-size: 20pt;
+  line-height: 1.5;
+  padding: 0% 10% 0% 10%; 
+  margin-top: 800px;
+
+}
+
+
+/* chapter2-5 */
+
+#chaptertwofive {
+  color: white;
+  font-size: 20pt;
+  line-height: 1.5;
+  padding: 0% 10% 0% 10%; 
+  margin-top: 800px;
+
+}
+
+
+/* conclusion*/
+
+#conclusion {
+  color: white;
+  font-size: 20pt;
+  line-height: 1.5;
+  padding: 0% 10% 0% 10%; 
+  margin-top: 800px;
+
+}
+
+
+/* literature */
+
+#literature {
+  color: white;
+  font-size: 10pt;
+  line-height: 2;
+  padding: 0% 10% 0% 10%; 
+  margin-top: 800px;
+
+}
+
+.underline {
+  text-decoration: underline;
+
+}
+
+.internetsource:link {color: #ffffff; text-decoration: underline; }
+.internetsource:active {color: #ffffff; text-decoration: underline; }
+.internetsource:visited {color: #ffffff; text-decoration: underline; }
+.internetsource:hover {color: #ffffff; text-decoration: underline; }
+
+
+.last {
+  color: white;
+  font-size: 20pt;
+  line-height: 1.5;
+  padding: 0% 10% 0% 10%; 
+
+
+}
+
+
+/* image and reference */
+
+
+.chapterref {
+  width: 100%;
+  font-size: 10pt;
+  word-spacing: -2px;
+  line-height: 14pt;
+
+  padding: 15px 25PX 25PX 20PX;
+
+}
+
+
+.chapterref.emptyy {
+  background-image: url(img/firstpage.png);
+  background-size: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+
+
+
+.chaptertitle {
+  font-size: 20pt;
+  letter-spacing: 0px;
+  word-spacing: -2px;
+  line-height: 24pt;
+
+  padding: 15px 20PX 25PX 20PX;
+
+}
+
+.chapterimg {
+  max-width: 100%;
+  max-height: 100%;
+  position: absolute;
+  left: 50%; top: 50%;
+  
+  -webkit-transform: translate( -50%, -50%);
+  transform: translate( -50%, -50%);
+}
+
+
+
+
+/* text hover and photo appears */
+
+i {
+  padding-bottom: 4px;
+  border-bottom: 0.1em solid #0033ff;
+  caption-side: bottom;
+  position: relative;
+}
+i:hover {color: #ffffff }
+
+
+}

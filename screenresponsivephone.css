@@ -1,0 +1,387 @@
+ @media screen and (min-width: 100px) and (max-width: 375px) {
+
+
+* {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+
+/* border inside the div */
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+
+  font-size: 20px;
+  cursor: url(mouse.gif);
+    
+ }
+
+
+a:link {color: #000000; text-decoration: none; }
+a:active {color: #000000; text-decoration: none; }
+a:visited {color: #000000; text-decoration: none; }
+a:hover {color: #ffffff; text-decoration: none; }
+
+
+
+#secondbody {
+  display:none;
+
+}
+
+
+#icon {
+  display:none;
+}
+
+#wrapper {
+}
+
+#print {
+  
+  display:none;
+
+}
+
+
+#menu {
+  display:none;
+
+}
+
+#bottommenu {
+    display:none;
+
+}
+
+
+li {
+  display:none;
+
+
+}
+
+.left {
+  display:none;
+ 
+
+
+}
+
+.right {
+    display:none;
+
+
+
+}
+
+
+.boxone {
+   display:none;
+
+
+}
+
+.boxtwo {
+  display:none;
+
+
+}
+.boxthree {
+   display:none;
+
+
+}
+.boxthree.empty {
+  display:none;
+
+
+}
+
+.boxones {
+  display:none;
+
+
+}
+
+.boxtwos {
+  /* background-color: orange; */
+  display:none;
+
+}
+.boxthrees {
+  display:none;
+
+
+}
+
+.boxtop {
+  display:none;
+
+
+}
+
+.boxbottom {
+  display:none;
+
+}
+
+
+#boxthrees1 {
+  display:none;
+
+
+}
+
+/* main title */
+
+
+
+#maintitle img {
+  display:none;
+
+
+}
+
+
+/* research question */
+
+
+#question {
+  display:none;
+
+}
+
+.quote {
+  display:none;
+
+
+}
+
+/* abstract */
+
+#abstract {
+  display:none;
+
+
+}
+
+
+/* introduction */
+
+#introduction {
+  display:none;
+
+}
+
+/* subchapter in Introduction */
+.sub {
+  display:none;
+
+}
+
+/* chapter1-1 */
+
+#chapteroneone {
+  display:none;
+
+}
+
+/* chapter1-2 */
+
+#chapteronetwo {
+  display:none;
+
+
+}
+
+/* chapter1-3 */
+
+#chapteronethree {
+   display:none;
+
+
+}
+
+.newperspectivefirst {
+  display:none;
+
+
+}
+
+
+.newperspective {
+  display:none;
+
+
+}
+
+/* chapter2-1 */
+
+#chaptertwoone {
+  color: white;
+  font-size: 20pt;
+  line-height: 1.5;
+  padding: 0% 10% 0% 10%; 
+  margin-top: 800px;
+
+}
+
+
+/* chapter2-2 */
+
+#chaptertwotwo {
+  color: white;
+  font-size: 20pt;
+  line-height: 1.5;
+  padding: 0% 10% 0% 10%; 
+  margin-top: 800px;
+
+}
+
+
+/* chapter2-3 */
+
+#chaptertwothree {
+  color: white;
+  font-size: 20pt;
+  line-height: 1.5;
+  padding: 0% 10% 0% 10%; 
+  margin-top: 800px;
+
+}
+
+
+/* chapter2-4 */
+
+#chaptertwofour {
+  color: white;
+  font-size: 20pt;
+  line-height: 1.5;
+  padding: 0% 10% 0% 10%; 
+  margin-top: 800px;
+
+}
+
+
+/* chapter2-5 */
+
+#chaptertwofive {
+  color: white;
+  font-size: 20pt;
+  line-height: 1.5;
+  padding: 0% 10% 0% 10%; 
+  margin-top: 800px;
+
+}
+
+
+/* conclusion*/
+
+#conclusion {
+  color: white;
+  font-size: 20pt;
+  line-height: 1.5;
+  padding: 0% 10% 0% 10%; 
+  margin-top: 800px;
+
+}
+
+
+/* literature */
+
+#literature {
+  color: white;
+  font-size: 10pt;
+  line-height: 2;
+  padding: 0% 10% 0% 10%; 
+  margin-top: 800px;
+
+}
+
+.underline {
+  text-decoration: underline;
+
+}
+
+.internetsource:link {color: #ffffff; text-decoration: underline; }
+.internetsource:active {color: #ffffff; text-decoration: underline; }
+.internetsource:visited {color: #ffffff; text-decoration: underline; }
+.internetsource:hover {color: #ffffff; text-decoration: underline; }
+
+
+.last {
+  color: white;
+  font-size: 20pt;
+  line-height: 1.5;
+  padding: 0% 10% 0% 10%; 
+
+
+}
+
+
+/* image and reference */
+
+
+.chapterref {
+  width: 100%;
+  font-size: 10pt;
+  word-spacing: -2px;
+  line-height: 14pt;
+
+  padding: 15px 25PX 25PX 20PX;
+
+}
+
+
+.chapterref.emptyy {
+  background-image: url(img/firstpage.png);
+  background-size: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+
+
+
+.chaptertitle {
+  font-size: 15pt;
+  letter-spacing: 0px;
+  word-spacing: -2px;
+  line-height: 20pt;
+
+  padding: 15px 20PX 25PX 20PX;
+
+}
+
+.chapterimg {
+  max-width: 100%;
+  max-height: 100%;
+  position: absolute;
+  left: 50%; top: 50%;
+  
+  -webkit-transform: translate( -50%, -50%);
+  transform: translate( -50%, -50%);
+}
+
+
+
+
+/* text hover and photo appears */
+
+i {
+  padding-bottom: 4px;
+  border-bottom: 0.1em solid #0033ff;
+  caption-side: bottom;
+  position: relative;
+}
+i:hover {color: #ffffff }
+
+
+}
